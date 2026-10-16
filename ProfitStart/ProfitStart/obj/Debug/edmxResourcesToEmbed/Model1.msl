@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище StudWorkModelContainer" CdmEntityContainer="StudWorkEntities1">
+    <EntitySetMapping Name="Applications">
+      <EntityTypeMapping TypeName="StudWorkModel.Applications">
+        <MappingFragment StoreEntitySet="Applications">
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="VacancyId" ColumnName="VacancyId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Companies">
+      <EntityTypeMapping TypeName="StudWorkModel.Companies">
+        <MappingFragment StoreEntitySet="Companies">
+          <ScalarProperty Name="DisputeMessage" ColumnName="DisputeMessage" />
+          <ScalarProperty Name="DisputeRequested" ColumnName="DisputeRequested" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsPartner" ColumnName="IsPartner" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="OGRN" ColumnName="OGRN" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="IsModerated" ColumnName="IsModerated" />
+          <ScalarProperty Name="PendingData" ColumnName="PendingData" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AvatarData" ColumnName="AvatarData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyApplications">
+      <EntityTypeMapping TypeName="StudWorkModel.CompanyApplications">
+        <MappingFragment StoreEntitySet="CompanyApplications">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="VacancyId" ColumnName="VacancyId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="PassportPath" ColumnName="PassportPath" />
+          <ScalarProperty Name="DiplomaPath" ColumnName="DiplomaPath" />
+          <ScalarProperty Name="IsGraduated" ColumnName="IsGraduated" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CompanyComment" ColumnName="CompanyComment" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faculties">
+      <EntityTypeMapping TypeName="StudWorkModel.Faculties">
+        <MappingFragment StoreEntitySet="Faculties">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UniversityId" ColumnName="UniversityId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="StudWorkModel.Notifications">
+        <MappingFragment StoreEntitySet="Notifications">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="VacancyId" ColumnName="VacancyId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="MatchScore" ColumnName="MatchScore" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="RecipientType" ColumnName="RecipientType" />
+          <ScalarProperty Name="LinkPage" ColumnName="LinkPage" />
+          <ScalarProperty Name="LinkId" ColumnName="LinkId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="SenderType" ColumnName="SenderType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Practices">
+      <EntityTypeMapping TypeName="StudWorkModel.Practices">
+        <MappingFragment StoreEntitySet="Practices">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="IsModerated" ColumnName="IsModerated" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="AvatarData" ColumnName="AvatarData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="StudWorkModel.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Skills">
+      <EntityTypeMapping TypeName="StudWorkModel.Skills">
+        <MappingFragment StoreEntitySet="Skills">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="StudWorkModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FacultyId" ColumnName="FacultyId" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="GPA" ColumnName="GPA" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="StudentCardNumber" ColumnName="StudentCardNumber" />
+          <ScalarProperty Name="IsGraduated" ColumnName="IsGraduated" />
+          <ScalarProperty Name="ResumeText" ColumnName="ResumeText" />
+          <ScalarProperty Name="PassportData" ColumnName="PassportData" />
+          <ScalarProperty Name="DiplomaData" ColumnName="DiplomaData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="StudWorkModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Universities">
+      <EntityTypeMapping TypeName="StudWorkModel.Universities">
+        <MappingFragment StoreEntitySet="Universities">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="StudWorkModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="LastSeenAt" ColumnName="LastSeenAt" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="AdminPassNumber" ColumnName="AdminPassNumber" />
+          <ScalarProperty Name="CareerPassNumber" ColumnName="CareerPassNumber" />
+          <ScalarProperty Name="AvatarData" ColumnName="AvatarData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vacancies">
+      <EntityTypeMapping TypeName="StudWorkModel.Vacancies">
+        <MappingFragment StoreEntitySet="Vacancies">
+          <ScalarProperty Name="PaymentUnit" ColumnName="PaymentUnit" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="SalaryFrom" ColumnName="SalaryFrom" />
+          <ScalarProperty Name="SalaryTo" ColumnName="SalaryTo" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="IsModerated" ColumnName="IsModerated" />
+          <ScalarProperty Name="MatchPercent" ColumnName="MatchPercent" />
+          <ScalarProperty Name="Requirements" ColumnName="Requirements" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="AvatarData" ColumnName="AvatarData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="StudentSkills" TypeName="StudWorkModel.StudentSkills" StoreEntitySet="StudentSkills">
+      <EndProperty Name="Skills">
+        <ScalarProperty Name="Id" ColumnName="SkillId" />
+      </EndProperty>
+      <EndProperty Name="Students">
+        <ScalarProperty Name="Id" ColumnName="StudentId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="VacancySkills" TypeName="StudWorkModel.VacancySkills" StoreEntitySet="VacancySkills">
+      <EndProperty Name="Skills">
+        <ScalarProperty Name="Id" ColumnName="SkillId" />
+      </EndProperty>
+      <EndProperty Name="Vacancies">
+        <ScalarProperty Name="Id" ColumnName="VacancyId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище StudWorkModel.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище StudWorkModel.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище StudWorkModel.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_GenerateSmartNotifications" FunctionName="Хранилище StudWorkModel.sp_GenerateSmartNotifications" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище StudWorkModel.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="StudWorkModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище StudWorkModel.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="StudWorkModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище StudWorkModel.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище StudWorkModel.sp_upgraddiagrams" />
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="StudWorkModel.Messages">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="SenderType" ColumnName="SenderType" />
+          <ScalarProperty Name="VacancyId" ColumnName="VacancyId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bans">
+      <EntityTypeMapping TypeName="StudWorkModel.Bans">
+        <MappingFragment StoreEntitySet="Bans">
+          <ScalarProperty Name="NotifiedAt" ColumnName="NotifiedAt" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="BanUntil" ColumnName="BanUntil" />
+          <ScalarProperty Name="BannedAt" ColumnName="BannedAt" />
+          <ScalarProperty Name="ReasonType" ColumnName="ReasonType" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resumes">
+      <EntityTypeMapping TypeName="StudWorkModel.Resumes">
+        <MappingFragment StoreEntitySet="Resumes">
+          <ScalarProperty Name="UploadedAt" ColumnName="UploadedAt" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyRatings">
+      <EntityTypeMapping TypeName="StudWorkModel.CompanyRatings">
+        <MappingFragment StoreEntitySet="CompanyRatings">
+          <ScalarProperty Name="CompanyReplyAt" ColumnName="CompanyReplyAt" />
+          <ScalarProperty Name="CompanyReply" ColumnName="CompanyReply" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="IsModerated" ColumnName="IsModerated" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="CommentedAt" ColumnName="CommentedAt" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="RatedAt" ColumnName="RatedAt" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PracticeApplications">
+      <EntityTypeMapping TypeName="StudWorkModel.PracticeApplications">
+        <MappingFragment StoreEntitySet="PracticeApplications">
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="PracticeId" ColumnName="PracticeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="PracticeSkills" TypeName="StudWorkModel.PracticeSkills" StoreEntitySet="PracticeSkills">
+      <EndProperty Name="Skills">
+        <ScalarProperty Name="Id" ColumnName="SkillId" />
+      </EndProperty>
+      <EndProperty Name="Practices">
+        <ScalarProperty Name="Id" ColumnName="PracticeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

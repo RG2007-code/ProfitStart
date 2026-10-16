@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudWorkModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="VacancyId" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Applicati__Stude__2A4B4B5E" FromRole="Applications" ToRole="Students" />
+    <NavigationProperty Name="Vacancies" Relationship="Self.FK__Applicati__Vacan__2B3F6F97" FromRole="Applications" ToRole="Vacancies" />
+    <Property Name="IsApproved" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Companies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsPartner" Type="Boolean" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="OGRN" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsModerated" Type="Boolean" Nullable="false" />
+    <Property Name="PendingData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Direction" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="RejectionReason" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="AvatarData" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Companies__UserI__48CFD27E" FromRole="Companies" ToRole="Users" />
+    <NavigationProperty Name="Vacancies" Relationship="Self.FK__Vacancies__Compa__21B6055D" FromRole="Companies" ToRole="Vacancies" />
+    <Property Name="INN" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Messages" Relationship="StudWorkModel.FK__Messages__Compan__09A971A2" FromRole="Companies" ToRole="Messages" />
+    <Property Name="Rating" Type="Decimal" Nullable="false" Precision="2" Scale="1" />
+    <NavigationProperty Name="CompanyRatings" Relationship="StudWorkModel.FK_Ratings_Company" FromRole="Companies" ToRole="CompanyRatings" />
+    <Property Name="DisputeRequested" Type="Boolean" />
+    <Property Name="DisputeMessage" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CompanyApplications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="VacancyId" Type="Int32" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PassportPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DiplomaPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsGraduated" Type="Boolean" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyComment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__CompanyAp__Stude__778AC167" FromRole="CompanyApplications" ToRole="Students" />
+    <NavigationProperty Name="Vacancies" Relationship="Self.FK__CompanyAp__Vacan__787EE5A0" FromRole="CompanyApplications" ToRole="Vacancies" />
+  </EntityType>
+  <EntityType Name="Faculties">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniversityId" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Universities" Relationship="Self.FK__Faculties__Unive__1273C1CD" FromRole="Faculties" ToRole="Universities" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Students__Facult__164452B1" FromRole="Faculties" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Notifications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="VacancyId" Type="Int32" />
+    <Property Name="Message" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MatchScore" Type="Int32" />
+    <Property Name="IsRead" Type="Boolean" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="CompanyId" Type="Int32" />
+    <Property Name="RecipientType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="LinkPage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LinkId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="SenderType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Notificat__Stude__300424B4" FromRole="Notifications" ToRole="Students" />
+    <NavigationProperty Name="Vacancies" Relationship="Self.FK__Notificat__Vacan__30F848ED" FromRole="Notifications" ToRole="Vacancies" />
+    <Property Name="SenderId" Type="Int32" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Practices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Direction" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Duration" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyId" Type="Int32" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsModerated" Type="Boolean" Nullable="false" />
+    <Property Name="RejectionReason" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AvatarData" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="PracticeApplications" Relationship="StudWorkModel.FK__PracticeA__Pract__3E1D39E1" FromRole="Practices" ToRole="PracticeApplications" />
+    <NavigationProperty Name="Skills" Relationship="StudWorkModel.PracticeSkills" FromRole="Practices" ToRole="Skills" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__RoleId__44FF419A" FromRole="Roles" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Skills">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Students" Relationship="Self.StudentSkills" FromRole="Skills" ToRole="Students" />
+    <NavigationProperty Name="Vacancies" Relationship="Self.VacancySkills" FromRole="Skills" ToRole="Vacancies" />
+    <NavigationProperty Name="Practices" Relationship="StudWorkModel.PracticeSkills" FromRole="Skills" ToRole="Practices" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FacultyId" Type="Int32" />
+    <Property Name="FullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Course" Type="Int32" />
+    <Property Name="GPA" Type="Decimal" Precision="3" Scale="2" />
+    <Property Name="PasswordHash" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="Direction" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="StudentCardNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IsGraduated" Type="Boolean" Nullable="false" />
+    <Property Name="ResumeText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PassportData" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DiplomaData" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Applications" Relationship="Self.FK__Applicati__Stude__2A4B4B5E" FromRole="Students" ToRole="Applications" />
+    <NavigationProperty Name="CompanyApplications" Relationship="Self.FK__CompanyAp__Stude__778AC167" FromRole="Students" ToRole="CompanyApplications" />
+    <NavigationProperty Name="Faculties" Relationship="Self.FK__Students__Facult__164452B1" FromRole="Students" ToRole="Faculties" />
+    <NavigationProperty Name="Notifications" Relationship="Self.FK__Notificat__Stude__300424B4" FromRole="Students" ToRole="Notifications" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Students__UserId__47DBAE45" FromRole="Students" ToRole="Users" />
+    <NavigationProperty Name="Skills" Relationship="Self.StudentSkills" FromRole="Students" ToRole="Skills" />
+    <NavigationProperty Name="Messages" Relationship="StudWorkModel.FK__Messages__Studen__08B54D69" FromRole="Students" ToRole="Messages" />
+    <NavigationProperty Name="PracticeApplications" Relationship="StudWorkModel.FK__PracticeA__Stude__3F115E1A" FromRole="Students" ToRole="PracticeApplications" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Universities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Faculties" Relationship="Self.FK__Faculties__Unive__1273C1CD" FromRole="Universities" ToRole="Faculties" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordHash" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="AdminPassNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CareerPassNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="AvatarData" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Companies" Relationship="Self.FK__Companies__UserI__48CFD27E" FromRole="Users" ToRole="Companies" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Users__RoleId__44FF419A" FromRole="Users" ToRole="Roles" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Students__UserId__47DBAE45" FromRole="Users" ToRole="Students" />
+    <NavigationProperty Name="Resumes" Relationship="StudWorkModel.FK_Resumes_Users" FromRole="Users" ToRole="Resumes" />
+    <NavigationProperty Name="CompanyRatings" Relationship="StudWorkModel.FK_Ratings_User" FromRole="Users" ToRole="CompanyRatings" />
+    <Property Name="LastSeenAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Vacancies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SalaryFrom" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="SalaryTo" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="IsModerated" Type="Boolean" />
+    <Property Name="MatchPercent" Type="Int32" />
+    <Property Name="Requirements" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Salary" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="RejectionReason" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="AvatarData" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Applications" Relationship="Self.FK__Applicati__Vacan__2B3F6F97" FromRole="Vacancies" ToRole="Applications" />
+    <NavigationProperty Name="Companies" Relationship="Self.FK__Vacancies__Compa__21B6055D" FromRole="Vacancies" ToRole="Companies" />
+    <NavigationProperty Name="CompanyApplications" Relationship="Self.FK__CompanyAp__Vacan__787EE5A0" FromRole="Vacancies" ToRole="CompanyApplications" />
+    <NavigationProperty Name="Notifications" Relationship="Self.FK__Notificat__Vacan__30F848ED" FromRole="Vacancies" ToRole="Notifications" />
+    <NavigationProperty Name="Skills" Relationship="Self.VacancySkills" FromRole="Vacancies" ToRole="Skills" />
+    <NavigationProperty Name="Messages" Relationship="StudWorkModel.FK__Messages__Vacanc__0A9D95DB" FromRole="Vacancies" ToRole="Messages" />
+    <Property Name="PaymentUnit" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__Applicati__Stude__2A4B4B5E">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+    <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Applications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Applicati__Vacan__2B3F6F97">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1" />
+    <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Applications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Companies__UserI__48CFD27E">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Companies" Type="Self.Companies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Companies">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vacancies__Compa__21B6055D">
+    <End Role="Companies" Type="Self.Companies" Multiplicity="0..1" />
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Companies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vacancies">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CompanyAp__Stude__778AC167">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="CompanyApplications" Type="Self.CompanyApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyApplications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CompanyAp__Vacan__787EE5A0">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="1" />
+    <End Role="CompanyApplications" Type="Self.CompanyApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyApplications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Faculties__Unive__1273C1CD">
+    <End Role="Universities" Type="Self.Universities" Multiplicity="0..1" />
+    <End Role="Faculties" Type="Self.Faculties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universities">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Faculties">
+        <PropertyRef Name="UniversityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Students__Facult__164452B1">
+    <End Role="Faculties" Type="Self.Faculties" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Faculties">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="FacultyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificat__Stude__300424B4">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+    <End Role="Notifications" Type="Self.Notifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notifications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificat__Vacan__30F848ED">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1" />
+    <End Role="Notifications" Type="Self.Notifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notifications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleId__44FF419A">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Students__UserId__47DBAE45">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentSkills">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="*" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+  </Association>
+  <Association Name="VacancySkills">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="*" />
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="StudWorkEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Applications" EntityType="Self.Applications" />
+    <EntitySet Name="Companies" EntityType="Self.Companies" />
+    <EntitySet Name="CompanyApplications" EntityType="Self.CompanyApplications" />
+    <EntitySet Name="Faculties" EntityType="Self.Faculties" />
+    <EntitySet Name="Notifications" EntityType="Self.Notifications" />
+    <EntitySet Name="Practices" EntityType="Self.Practices" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="Skills" EntityType="Self.Skills" />
+    <EntitySet Name="Students" EntityType="Self.Students" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Universities" EntityType="Self.Universities" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Vacancies" EntityType="Self.Vacancies" />
+    <AssociationSet Name="FK__Applicati__Stude__2A4B4B5E" Association="Self.FK__Applicati__Stude__2A4B4B5E">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Applications" EntitySet="Applications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Applicati__Vacan__2B3F6F97" Association="Self.FK__Applicati__Vacan__2B3F6F97">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Applications" EntitySet="Applications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Companies__UserI__48CFD27E" Association="Self.FK__Companies__UserI__48CFD27E">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Companies" EntitySet="Companies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vacancies__Compa__21B6055D" Association="Self.FK__Vacancies__Compa__21B6055D">
+      <End Role="Companies" EntitySet="Companies" />
+      <End Role="Vacancies" EntitySet="Vacancies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CompanyAp__Stude__778AC167" Association="Self.FK__CompanyAp__Stude__778AC167">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="CompanyApplications" EntitySet="CompanyApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CompanyAp__Vacan__787EE5A0" Association="Self.FK__CompanyAp__Vacan__787EE5A0">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="CompanyApplications" EntitySet="CompanyApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Faculties__Unive__1273C1CD" Association="Self.FK__Faculties__Unive__1273C1CD">
+      <End Role="Universities" EntitySet="Universities" />
+      <End Role="Faculties" EntitySet="Faculties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Students__Facult__164452B1" Association="Self.FK__Students__Facult__164452B1">
+      <End Role="Faculties" EntitySet="Faculties" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificat__Stude__300424B4" Association="Self.FK__Notificat__Stude__300424B4">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Notifications" EntitySet="Notifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificat__Vacan__30F848ED" Association="Self.FK__Notificat__Vacan__30F848ED">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Notifications" EntitySet="Notifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleId__44FF419A" Association="Self.FK__Users__RoleId__44FF419A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Students__UserId__47DBAE45" Association="Self.FK__Students__UserId__47DBAE45">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="StudentSkills" Association="Self.StudentSkills">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="VacancySkills" Association="Self.VacancySkills">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="Vacancies" EntitySet="Vacancies" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GenerateSmartNotifications" />
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(StudWorkModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(StudWorkModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Messages" EntityType="StudWorkModel.Messages" />
+    <AssociationSet Name="FK__Messages__Compan__09A971A2" Association="StudWorkModel.FK__Messages__Compan__09A971A2">
+      <End Role="Companies" EntitySet="Companies" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__Studen__08B54D69" Association="StudWorkModel.FK__Messages__Studen__08B54D69">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__Vacanc__0A9D95DB" Association="StudWorkModel.FK__Messages__Vacanc__0A9D95DB">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <EntitySet Name="Bans" EntityType="StudWorkModel.Bans" />
+    <EntitySet Name="Resumes" EntityType="StudWorkModel.Resumes" />
+    <AssociationSet Name="FK_Resumes_Users" Association="StudWorkModel.FK_Resumes_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Resumes" EntitySet="Resumes" />
+    </AssociationSet>
+    <EntitySet Name="CompanyRatings" EntityType="StudWorkModel.CompanyRatings" />
+    <AssociationSet Name="FK_Ratings_Company" Association="StudWorkModel.FK_Ratings_Company">
+      <End Role="Companies" EntitySet="Companies" />
+      <End Role="CompanyRatings" EntitySet="CompanyRatings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ratings_User" Association="StudWorkModel.FK_Ratings_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CompanyRatings" EntitySet="CompanyRatings" />
+    </AssociationSet>
+    <EntitySet Name="PracticeApplications" EntityType="StudWorkModel.PracticeApplications" />
+    <AssociationSet Name="FK__PracticeA__Pract__3E1D39E1" Association="StudWorkModel.FK__PracticeA__Pract__3E1D39E1">
+      <End Role="Practices" EntitySet="Practices" />
+      <End Role="PracticeApplications" EntitySet="PracticeApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PracticeA__Stude__3F115E1A" Association="StudWorkModel.FK__PracticeA__Stude__3F115E1A">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="PracticeApplications" EntitySet="PracticeApplications" />
+    </AssociationSet>
+    <AssociationSet Name="PracticeSkills" Association="StudWorkModel.PracticeSkills">
+      <End Role="Practices" EntitySet="Practices" />
+      <End Role="Skills" EntitySet="Skills" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <Property Name="VacancyId" Type="Int32" />
+    <Property Name="SenderType" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsRead" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Companies" Relationship="StudWorkModel.FK__Messages__Compan__09A971A2" FromRole="Messages" ToRole="Companies" />
+    <NavigationProperty Name="Students" Relationship="StudWorkModel.FK__Messages__Studen__08B54D69" FromRole="Messages" ToRole="Students" />
+    <NavigationProperty Name="Vacancies" Relationship="StudWorkModel.FK__Messages__Vacanc__0A9D95DB" FromRole="Messages" ToRole="Vacancies" />
+  </EntityType>
+  <Association Name="FK__Messages__Compan__09A971A2">
+    <End Type="StudWorkModel.Companies" Role="Companies" Multiplicity="1" />
+    <End Type="StudWorkModel.Messages" Role="Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Companies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__Studen__08B54D69">
+    <End Type="StudWorkModel.Students" Role="Students" Multiplicity="1" />
+    <End Type="StudWorkModel.Messages" Role="Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__Vacanc__0A9D95DB">
+    <End Type="StudWorkModel.Vacancies" Role="Vacancies" Multiplicity="0..1" />
+    <End Type="StudWorkModel.Messages" Role="Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Bans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Reason" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ReasonType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BannedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BanUntil" Type="DateTime" Precision="3" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="PasswordHash" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="NotifiedAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Resumes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FilePath" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UploadedAt" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Users" Relationship="StudWorkModel.FK_Resumes_Users" FromRole="Resumes" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK_Resumes_Users">
+    <End Type="StudWorkModel.Users" Role="Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="StudWorkModel.Resumes" Role="Resumes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Resumes">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CompanyRatings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="Int32" Nullable="false" />
+    <Property Name="RatedAt" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Companies" Relationship="StudWorkModel.FK_Ratings_Company" FromRole="CompanyRatings" ToRole="Companies" />
+    <NavigationProperty Name="Users" Relationship="StudWorkModel.FK_Ratings_User" FromRole="CompanyRatings" ToRole="Users" />
+    <Property Name="Comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CommentedAt" Type="DateTime" Precision="3" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsModerated" Type="Boolean" Nullable="false" />
+    <Property Name="RejectionReason" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyReply" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyReplyAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <Association Name="FK_Ratings_Company">
+    <End Type="StudWorkModel.Companies" Role="Companies" Multiplicity="1" />
+    <End Type="StudWorkModel.CompanyRatings" Role="CompanyRatings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Companies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyRatings">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ratings_User">
+    <End Type="StudWorkModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="StudWorkModel.CompanyRatings" Role="CompanyRatings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyRatings">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="PracticeApplications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PracticeId" Type="Int32" Nullable="false" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Practices" Relationship="StudWorkModel.FK__PracticeA__Pract__3E1D39E1" FromRole="PracticeApplications" ToRole="Practices" />
+    <NavigationProperty Name="Students" Relationship="StudWorkModel.FK__PracticeA__Stude__3F115E1A" FromRole="PracticeApplications" ToRole="Students" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__PracticeA__Pract__3E1D39E1">
+    <End Type="StudWorkModel.Practices" Role="Practices" Multiplicity="1" />
+    <End Type="StudWorkModel.PracticeApplications" Role="PracticeApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Practices">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PracticeApplications">
+        <PropertyRef Name="PracticeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PracticeA__Stude__3F115E1A">
+    <End Type="StudWorkModel.Students" Role="Students" Multiplicity="1" />
+    <End Type="StudWorkModel.PracticeApplications" Role="PracticeApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PracticeApplications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PracticeSkills">
+    <End Type="StudWorkModel.Practices" Role="Practices" Multiplicity="*" />
+    <End Type="StudWorkModel.Skills" Role="Skills" Multiplicity="*" />
+  </Association>
+</Schema>

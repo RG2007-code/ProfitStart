@@ -1,0 +1,75 @@
+﻿<Page x:Class="ProfitStart.PageCompanyDisputes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource PageBg}">
+    <Grid Margin="30,25">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="Оспаривания компаний"
+                           FontSize="26" FontWeight="Bold"
+                           Margin="0,0,0,24"
+                           Foreground="{DynamicResource TextPrimary}"/>
+
+                <ItemsControl x:Name="DisputesList">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="{DynamicResource CardBg}"
+                                    CornerRadius="10"
+                                    Padding="20" Margin="0,0,0,12"
+                                    Cursor="Hand"
+                                    Tag="{Binding Id}"
+                                    MouseLeftButtonUp="Card_Click">
+                                <Grid>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid Width="48" Height="48"
+                                              VerticalAlignment="Center">
+                                            <Ellipse Width="48" Height="48"
+                                                     Fill="{DynamicResource AccentBgSoft}"/>
+                                            <Ellipse Width="48" Height="48"
+                                                     Tag="{Binding AvatarData}"
+                                                     Loaded="CompanyAvatar_Loaded"/>
+                                        </Grid>
+
+                                        <StackPanel Margin="16,0,0,0"
+                                                    VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Name}"
+                                                       FontWeight="Bold" FontSize="15"
+                                                       Foreground="{DynamicResource TextPrimary}"/>
+                                            <TextBlock Text="{Binding Info}"
+                                                       Foreground="{DynamicResource TextMuted}"
+                                                       FontSize="12"
+                                                       Margin="0,4,0,0"/>
+                                            <TextBlock Text="{Binding Message}"
+                                                       Foreground="#D97706"
+                                                       FontSize="12"
+                                                       Margin="0,4,0,0"
+                                                       TextWrapping="Wrap"/>
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                    <Button Content="Открыть"
+                                            Width="120" Height="38"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center"
+                                            Style="{StaticResource PrimaryBtn}"
+                                            Tag="{Binding Id}"
+                                            Click="Open_Click"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <TextBlock x:Name="EmptyText"
+                           Text="Нет активных оспариваний"
+                           Foreground="{DynamicResource TextPlaceholder}"
+                           FontSize="14"
+                           HorizontalAlignment="Center"
+                           Margin="0,40,0,0"
+                           Visibility="Collapsed"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

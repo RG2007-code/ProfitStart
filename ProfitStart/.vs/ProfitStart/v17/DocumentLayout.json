@@ -1,0 +1,2447 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ProfitStart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|c:\\users\\user\\source\\repos\\profitstart\\profitstart\\pagenotifications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagenotifications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagenotifications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagenotifications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanageskills.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanageskills.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanageskills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanageskills.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\notify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\notify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanagepractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanagepractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanagepractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanagepractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagepracticeapplications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagepracticeapplications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemypractices.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemypractices.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagepracticecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagepracticecard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagevacancyapplications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagevacancyapplications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemessages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemessages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemessages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemessages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\resumestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\resumestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\statustext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\statustext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\theme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\userdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\userdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\avatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\avatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\adminmessagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\adminmessagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagepracticecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagepracticecard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companyrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companyrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagepracticeapplications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagepracticeapplications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationreviews.xaml.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationreviews.xaml.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationreviews.xaml.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationreviews.xaml.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemypractices.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemypractices.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagepractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagepractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagevacancies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagevacancies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagevacancies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagevacancies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemyvacancies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemyvacancies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanydispute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanydispute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanydispute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanydispute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companydispute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companydispute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanydisputes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanydisputes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanydisputes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanydisputes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationcompanies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationcompanies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationcompanies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationcompanies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditcompany.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditcompany.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageaddpractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageaddpractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageaddvacancy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageaddvacancy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditpractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditpractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditpractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditpractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageaddpractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageaddpractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationpractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationpractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagepractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagepractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\vacancies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\vacancies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\ratingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\ratingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanycard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanycard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanycard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanycard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\model1.edmx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\model1.edmx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanagecompanies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanagecompanies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanageusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanageusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanagecompanies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanagecompanies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagestudentprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagestudentprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagestudentprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagestudentprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagebannedusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagebannedusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\practiceapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\practiceapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\passwordresetwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\passwordresetwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagechat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagechat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageapplications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageapplications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageaddcompany.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageaddcompany.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\globalsearchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\globalsearchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companyreviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companyreviewwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\bans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\bans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\appmessage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\appmessage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageapplypractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageapplypractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\bannedusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\bannedusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagebannedusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagebannedusers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemanageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemanageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\passwordresetwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\passwordresetwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companyreviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companyreviewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageapplications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageapplications.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\appmessage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\appmessage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\ratingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\ratingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagevacancycard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagevacancycard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageresume.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageresume.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationvacancies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationvacancies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditvacancy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditvacancy.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanydetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanydetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanies.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagechat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagechat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageapplyrequest.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageapplyrequest.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageapplypractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageapplypractice.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\irefreshablepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\irefreshablepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\apptheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\apptheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\rejectreasonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\rejectreasonwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\messagedialogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\messagedialogwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\disputewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\disputewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\banwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\banwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\adminmessagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\adminmessagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditcompany.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditcompany.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagecompanydetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagecompanydetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageapplyrequest.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageapplyrequest.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageaddvacancy.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageaddvacancy.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageaddcompany.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageaddcompany.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagevacancycard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagevacancycard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagevacancyapplications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagevacancyapplications.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationpractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationpractice.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\practices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\practices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\universities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\universities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\sysdiagrams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\sysdiagrams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\sp_helpdiagrams_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\sp_helpdiagrams_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\sp_helpdiagramdefinition_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\sp_helpdiagramdefinition_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\skills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\skills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemoderationvacancies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemoderationvacancies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageresume.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageresume.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pagemyvacancies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pagemyvacancies.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\pageeditvacancy.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\pageeditvacancy.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\faculties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\faculties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\export.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\disputewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\disputewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companyratings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companyratings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\companyapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\companyapplications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\bannotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\bannotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\applications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\banwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\banwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\messagedialogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\messagedialogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|C:\\Users\\user\\source\\repos\\ProfitStart\\profitstart\\globalsearchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D08DBFD6-B059-4C27-8F18-25DA121A93C0}|ProfitStart\\ProfitStart.csproj|solutionrelative:profitstart\\globalsearchwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\App.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T14:51:41.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageManagePractice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManagePractice.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManagePractice.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManagePractice.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageManagePractice.xaml.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAcwLUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:03:46.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagePracticeCard.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeCard.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PagePracticeCard.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeCard.xaml",
+              "RelativeToolTip": "ProfitStart\\PagePracticeCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T13:31:59.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageManagePractice.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManagePractice.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManagePractice.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManagePractice.xaml",
+              "RelativeToolTip": "ProfitStart\\PageManagePractice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:20:07.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageNotifications.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageNotifications.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageNotifications.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageNotifications.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageNotifications.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALwBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:05:45.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Notify.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Notify.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Notify.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Notify.cs",
+              "RelativeToolTip": "ProfitStart\\Notify.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwF0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:10:07.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.Designer.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Model1.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.Designer.cs",
+              "RelativeToolTip": "ProfitStart\\Model1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T10:03:14.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageManageSkills.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageSkills.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManageSkills.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageSkills.xaml",
+              "RelativeToolTip": "ProfitStart\\PageManageSkills.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:58:15.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageManageSkills.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageSkills.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManageSkills.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageSkills.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageManageSkills.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:58:31.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageNotifications.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageNotifications.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageNotifications.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageNotifications.xaml",
+              "RelativeToolTip": "ProfitStart\\PageNotifications.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:20:35.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageMyPractices.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyPractices.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMyPractices.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyPractices.xaml",
+              "RelativeToolTip": "ProfitStart\\PageMyPractices.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T11:25:44.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PageMain.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMain.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMain.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMain.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageMain.xaml.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAcwAQBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:19:25.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PageMessages.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMessages.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMessages.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMessages.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageMessages.xaml.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAIUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:17:19.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagePracticeApplications.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeApplications.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PagePracticeApplications.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeApplications.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PagePracticeApplications.xaml.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAcwNUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:08:34.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MainWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T06:38:40.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CompanyDispute.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyDispute.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\CompanyDispute.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyDispute.cs",
+              "RelativeToolTip": "ProfitStart\\CompanyDispute.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAQwPQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T11:42:23.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PageCompanyDispute.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDispute.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyDispute.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDispute.xaml",
+              "RelativeToolTip": "ProfitStart\\PageCompanyDispute.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-04T18:19:20.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PageAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAdmin.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAdmin.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageAdmin.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFkCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:00:04.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "DisputeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\DisputeWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\DisputeWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\DisputeWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\DisputeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T11:43:48.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageVacancyApplications.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyApplications.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageVacancyApplications.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyApplications.xaml",
+              "RelativeToolTip": "ProfitStart\\PageVacancyApplications.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T10:02:00.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RegisterWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T07:16:19.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PageVacancies.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancies.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageVacancies.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancies.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageVacancies.xaml.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAUwIsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:41:45.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PageVacancies.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancies.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageVacancies.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancies.xaml",
+              "RelativeToolTip": "ProfitStart\\PageVacancies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:20:42.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PageMyVacancies.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyVacancies.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMyVacancies.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyVacancies.xaml",
+              "RelativeToolTip": "ProfitStart\\PageMyVacancies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:17:45.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StatusText.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\StatusText.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\StatusText.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\StatusText.cs",
+              "RelativeToolTip": "ProfitStart\\StatusText.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T13:27:43.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PageMessages.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMessages.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMessages.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMessages.xaml",
+              "RelativeToolTip": "ProfitStart\\PageMessages.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T08:17:04.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PageModerationReviews.xaml.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationReviews.xaml.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationReviews.xaml.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationReviews.xaml.xaml",
+              "RelativeToolTip": "ProfitStart\\PageModerationReviews.xaml.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T08:34:47.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwEoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:05:34.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "PageCompanyDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDetails.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyDetails.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDetails.xaml",
+              "RelativeToolTip": "ProfitStart\\PageCompanyDetails.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:03:59.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "RatingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RatingWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\RatingWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RatingWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\RatingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T05:38:19.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\MainWindow.xaml.cs",
+              "ViewState": "AQIAALcCAAAAAAAAAAAQwPMCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:06:08.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Payment.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Payment.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Payment.cs",
+              "RelativeToolTip": "ProfitStart\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T10:07:51.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResumeStorage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\ResumeStorage.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\ResumeStorage.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\ResumeStorage.cs",
+              "RelativeToolTip": "ProfitStart\\ResumeStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:47:42.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Session.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Session.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Session.cs",
+              "RelativeToolTip": "ProfitStart\\Session.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:10:45.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Skill.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Skill.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Skill.cs",
+              "RelativeToolTip": "ProfitStart\\Skill.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:42:22.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Theme.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Theme.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Theme.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Theme.cs",
+              "RelativeToolTip": "ProfitStart\\Theme.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAkwH0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T04:03:35.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PagePracticeCard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeCard.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PagePracticeCard.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeCard.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PagePracticeCard.xaml.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAgwM4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T13:32:33.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PageCompanies.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanies.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanies.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanies.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageCompanies.xaml.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAQwJ0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:14:33.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ChangePasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\ChangePasswordWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\ChangePasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\ChangePasswordWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\ChangePasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T09:56:55.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "PageManageUsers.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageUsers.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManageUsers.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageUsers.xaml",
+              "RelativeToolTip": "ProfitStart\\PageManageUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T06:03:22.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserDelete.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\UserDelete.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\UserDelete.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\UserDelete.cs",
+              "RelativeToolTip": "ProfitStart\\UserDelete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T12:12:42.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Status.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Status.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Status.cs",
+              "RelativeToolTip": "ProfitStart\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T10:18:09.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PageMyPractices.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyPractices.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMyPractices.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyPractices.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageMyPractices.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAQwH0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T11:26:04.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PagePractice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePractice.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PagePractice.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePractice.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PagePractice.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAQwGgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T07:02:28.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\LoginWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T06:09:04.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "PageApplyPractice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyPractice.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageApplyPractice.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyPractice.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageApplyPractice.xaml.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAIwH4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:16:03.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "BannedUsers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BannedUsers.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\BannedUsers.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BannedUsers.cs",
+              "RelativeToolTip": "ProfitStart\\BannedUsers.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwFAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:53:30.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminMessageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AdminMessageWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\AdminMessageWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AdminMessageWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\AdminMessageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T06:04:54.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Avatar.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Avatar.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Avatar.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Avatar.cs",
+              "RelativeToolTip": "ProfitStart\\Avatar.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAABYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T12:05:56.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Model1.tt",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.tt",
+              "RelativeDocumentMoniker": "ProfitStart\\Model1.tt",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.tt",
+              "RelativeToolTip": "ProfitStart\\Model1.tt",
+              "ViewState": "AQIAAJABAAAAAAAAAAAuwLYBAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-10-03T13:48:49.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "PageResume.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageResume.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageResume.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageResume.xaml",
+              "RelativeToolTip": "ProfitStart\\PageResume.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T06:48:22.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PageProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageProfile.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageProfile.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageProfile.xaml",
+              "RelativeToolTip": "ProfitStart\\PageProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T08:02:04.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PageProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageProfile.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageProfile.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageProfile.xaml.cs",
+              "ViewState": "AQIAAEIBAAAAAAAAAAAQwH4BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:02:12.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CompanyRating.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyRating.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\CompanyRating.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyRating.cs",
+              "RelativeToolTip": "ProfitStart\\CompanyRating.cs",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAQwDcBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T07:53:25.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagePracticeApplications.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeApplications.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PagePracticeApplications.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePracticeApplications.xaml",
+              "RelativeToolTip": "ProfitStart\\PagePracticeApplications.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T03:08:09.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PageModerationReviews.xaml.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationReviews.xaml.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationReviews.xaml.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationReviews.xaml.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageModerationReviews.xaml.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwFoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T08:35:00.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PageModerationPractice.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationPractice.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationPractice.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationPractice.xaml",
+              "RelativeToolTip": "ProfitStart\\PageModerationPractice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:20:23.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PageCompanyDispute.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDispute.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyDispute.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDispute.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageCompanyDispute.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwHMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T18:19:54.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PagePractice.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePractice.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PagePractice.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PagePractice.xaml",
+              "RelativeToolTip": "ProfitStart\\PagePractice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T07:02:17.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PageAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAdmin.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAdmin.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAdmin.xaml",
+              "RelativeToolTip": "ProfitStart\\PageAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:58:55.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Vacancies.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Vacancies.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Vacancies.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Vacancies.cs",
+              "RelativeToolTip": "ProfitStart\\Vacancies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:25:08.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PageCompanyDisputes.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDisputes.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyDisputes.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDisputes.xaml",
+              "RelativeToolTip": "ProfitStart\\PageCompanyDisputes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-04T18:23:05.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PageCompanyDisputes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDisputes.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyDisputes.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDisputes.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageCompanyDisputes.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAcwGcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T18:23:17.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PageAddVacancy.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddVacancy.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAddVacancy.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddVacancy.xaml",
+              "RelativeToolTip": "ProfitStart\\PageAddVacancy.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:52:46.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Companies.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Companies.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Companies.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Companies.cs",
+              "RelativeToolTip": "ProfitStart\\Companies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T14:56:21.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PageEditProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditProfile.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditProfile.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageEditProfile.xaml.cs",
+              "ViewState": "AQIAAHMBAAAAAAAAAAAIwK8BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:01:35.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PageEditCompany.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditCompany.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditCompany.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditCompany.xaml",
+              "RelativeToolTip": "ProfitStart\\PageEditCompany.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T06:46:14.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PageModerationCompanies.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationCompanies.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationCompanies.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationCompanies.xaml",
+              "RelativeToolTip": "ProfitStart\\PageModerationCompanies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:20:15.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PageModerationCompanies.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationCompanies.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationCompanies.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationCompanies.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageModerationCompanies.xaml.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAIwJ0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T12:42:36.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PageEditProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditProfile.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditProfile.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditProfile.xaml",
+              "RelativeToolTip": "ProfitStart\\PageEditProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T08:01:16.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "AppMessage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AppMessage.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\AppMessage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AppMessage.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\AppMessage.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAkwEUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:15:31.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "PageVacancyCard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyCard.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageVacancyCard.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyCard.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageVacancyCard.xaml.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAIwNIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T09:16:11.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "PageApplications.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplications.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageApplications.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplications.xaml",
+              "RelativeToolTip": "ProfitStart\\PageApplications.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:35:24.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "PageApplyPractice.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyPractice.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageApplyPractice.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyPractice.xaml",
+              "RelativeToolTip": "ProfitStart\\PageApplyPractice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T03:15:47.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "PageBannedUsers.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageBannedUsers.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageBannedUsers.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageBannedUsers.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageBannedUsers.xaml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwIAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:40:54.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PageAddPractice.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddPractice.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAddPractice.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddPractice.xaml",
+              "RelativeToolTip": "ProfitStart\\PageAddPractice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T03:02:32.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PageEditPractice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditPractice.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditPractice.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditPractice.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageEditPractice.xaml.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAcwBgBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:03:27.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PageEditPractice.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditPractice.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditPractice.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditPractice.xaml",
+              "RelativeToolTip": "ProfitStart\\PageEditPractice.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T03:03:17.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Model1.edmx",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.edmx",
+              "RelativeDocumentMoniker": "ProfitStart\\Model1.edmx",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.edmx",
+              "RelativeToolTip": "ProfitStart\\Model1.edmx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-10-03T12:23:40.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "ProfitStart\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:20:34.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "PageManageUsers.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageUsers.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManageUsers.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageUsers.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageManageUsers.xaml.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAAABABAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:03:27.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "PageManageCompanies.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageCompanies.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManageCompanies.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageCompanies.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageManageCompanies.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:32:13.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "Chart.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Chart.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Chart.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Chart.cs",
+              "RelativeToolTip": "ProfitStart\\Chart.cs",
+              "ViewState": "AQIAANoAAAAAAAAAAAAkwP4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T09:19:30.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PageAddPractice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddPractice.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAddPractice.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddPractice.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageAddPractice.xaml.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAcwPcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:03:08.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "ProfitStart\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:20:20.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "Faculties.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Faculties.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Faculties.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Faculties.cs",
+              "RelativeToolTip": "ProfitStart\\Faculties.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:37:03.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "Export.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Export.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Export.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Export.cs",
+              "RelativeToolTip": "ProfitStart\\Export.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAkwGkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T09:18:46.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "ProfitStart\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Properties\\Resources.resx",
+              "RelativeToolTip": "ProfitStart\\Properties\\Resources.resx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-09-30T15:33:08.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ChangePasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\ChangePasswordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\ChangePasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\ChangePasswordWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\ChangePasswordWindow.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwD8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T09:57:18.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Bans.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Bans.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Bans.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Bans.cs",
+              "RelativeToolTip": "ProfitStart\\Bans.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:52:33.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "PageEditCompany.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditCompany.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditCompany.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditCompany.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageEditCompany.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAF4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:06:44.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "PasswordReset.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PasswordReset.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PasswordReset.cs",
+              "RelativeToolTip": "ProfitStart\\PasswordReset.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwCwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T09:05:34.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "sysdiagrams.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\sysdiagrams.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\sysdiagrams.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\sysdiagrams.cs",
+              "RelativeToolTip": "ProfitStart\\sysdiagrams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:23:08.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "PageModerationVacancies.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationVacancies.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationVacancies.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationVacancies.xaml",
+              "RelativeToolTip": "ProfitStart\\PageModerationVacancies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:20:29.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "PageAddVacancy.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddVacancy.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAddVacancy.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddVacancy.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageAddVacancy.xaml.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAIwCYBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:53:07.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "PageResume.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageResume.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageResume.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageResume.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageResume.xaml.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAkwEwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:48:42.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "PageBannedUsers.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageBannedUsers.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageBannedUsers.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageBannedUsers.xaml",
+              "RelativeToolTip": "ProfitStart\\PageBannedUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T06:40:40.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "RatingWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RatingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\RatingWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RatingWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\RatingWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:38:50.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "PageChat.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageChat.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageChat.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageChat.xaml",
+              "RelativeToolTip": "ProfitStart\\PageChat.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T08:17:43.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "PageManageCompanies.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageCompanies.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageManageCompanies.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageManageCompanies.xaml",
+              "RelativeToolTip": "ProfitStart\\PageManageCompanies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:19:59.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PageCompanyCard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyCard.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyCard.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyCard.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageCompanyCard.xaml.cs",
+              "ViewState": "AQIAAD8BAAAAAAAAAAAcwGUBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:30:25.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "AppMessage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AppMessage.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\AppMessage.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AppMessage.xaml",
+              "RelativeToolTip": "ProfitStart\\AppMessage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T15:15:49.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "PageVacancyCard.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyCard.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageVacancyCard.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyCard.xaml",
+              "RelativeToolTip": "ProfitStart\\PageVacancyCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T09:15:54.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "PracticeApplications.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PracticeApplications.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PracticeApplications.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PracticeApplications.cs",
+              "RelativeToolTip": "ProfitStart\\PracticeApplications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T12:21:09.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "IRefreshablePage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\IRefreshablePage.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\IRefreshablePage.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\IRefreshablePage.cs",
+              "RelativeToolTip": "ProfitStart\\IRefreshablePage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T05:15:05.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PageCompanyCard.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyCard.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyCard.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyCard.xaml",
+              "RelativeToolTip": "ProfitStart\\PageCompanyCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:18:47.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "PasswordResetWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PasswordResetWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PasswordResetWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PasswordResetWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\PasswordResetWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T09:06:19.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "PageMain.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMain.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMain.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMain.xaml",
+              "RelativeToolTip": "ProfitStart\\PageMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:19:12.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "PageStudentProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageStudentProfile.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageStudentProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageStudentProfile.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageStudentProfile.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:00:28.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PageStudentProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageStudentProfile.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageStudentProfile.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageStudentProfile.xaml",
+              "RelativeToolTip": "ProfitStart\\PageStudentProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T08:00:18.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "CompanyReviewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyReviewWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\CompanyReviewWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyReviewWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\CompanyReviewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T08:09:20.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\App.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\App.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\App.xaml",
+              "RelativeToolTip": "ProfitStart\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T06:34:03.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "PageEditVacancy.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditVacancy.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditVacancy.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditVacancy.xaml",
+              "RelativeToolTip": "ProfitStart\\PageEditVacancy.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:53:22.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PasswordResetWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PasswordResetWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PasswordResetWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PasswordResetWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PasswordResetWindow.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T09:06:43.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "PageAddCompany.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddCompany.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAddCompany.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddCompany.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageAddCompany.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwGIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:28:23.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 154,
+              "Title": "GlobalSearchWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\GlobalSearchWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\GlobalSearchWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\GlobalSearchWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\GlobalSearchWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T06:40:44.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "PageChat.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageChat.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageChat.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageChat.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageChat.xaml.cs",
+              "ViewState": "AQIAAHMBAAAAAAAAAAAkwJIBAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:17:58.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "PageApplications.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplications.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageApplications.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplications.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageApplications.xaml.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAkwO0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:36:23.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "PageAddCompany.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddCompany.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageAddCompany.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageAddCompany.xaml",
+              "RelativeToolTip": "ProfitStart\\PageAddCompany.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T03:28:17.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Notifications.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Notifications.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Notifications.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Notifications.cs",
+              "RelativeToolTip": "ProfitStart\\Notifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:16:55.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "GlobalSearchWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\GlobalSearchWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\GlobalSearchWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\GlobalSearchWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\GlobalSearchWindow.xaml.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAkwF0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:41:06.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CompanyReviewWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyReviewWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\CompanyReviewWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyReviewWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\CompanyReviewWindow.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:09:35.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Connection.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Connection.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Connection.cs",
+              "RelativeToolTip": "ProfitStart\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:02:10.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\App.config",
+              "RelativeDocumentMoniker": "ProfitStart\\App.config",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\App.config",
+              "RelativeToolTip": "ProfitStart\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-29T06:34:00.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "PageCompanies.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanies.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanies.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanies.xaml",
+              "RelativeToolTip": "ProfitStart\\PageCompanies.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T05:15:41.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Messages.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Messages.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Messages.cs",
+              "RelativeToolTip": "ProfitStart\\Messages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:01:39.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Image.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Image.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Image.cs",
+              "RelativeToolTip": "ProfitStart\\Image.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T14:59:47.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "BanWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BanWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\BanWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BanWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\BanWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:04:24.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "AdminMessageWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AdminMessageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\AdminMessageWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AdminMessageWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\AdminMessageWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T06:05:07.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "RejectReasonWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RejectReasonWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\RejectReasonWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RejectReasonWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\RejectReasonWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T04:26:47.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 152,
+              "Title": "BanWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BanWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\BanWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BanWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\BanWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T06:04:05.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "CompanyApplications.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyApplications.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\CompanyApplications.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyApplications.cs",
+              "RelativeToolTip": "ProfitStart\\CompanyApplications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T14:56:26.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "PageApplyRequest.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyRequest.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\PageApplyRequest.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyRequest.xaml",
+              "RelativeToolTip": "ProfitStart\\PageApplyRequest.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-03T06:43:42.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "PageCompanyDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDetails.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageCompanyDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageCompanyDetails.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageCompanyDetails.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:02:43.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Users.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Users.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Users.cs",
+              "RelativeToolTip": "ProfitStart\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:25:02.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "MessageDialogWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MessageDialogWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\MessageDialogWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MessageDialogWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\MessageDialogWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:18:39.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "PageEditVacancy.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditVacancy.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageEditVacancy.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageEditVacancy.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageEditVacancy.xaml.cs",
+              "ViewState": "AQIAAA4BAAAAAAAAAAAkwC0BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:53:30.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "BanNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BanNotifier.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\BanNotifier.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\BanNotifier.cs",
+              "RelativeToolTip": "ProfitStart\\BanNotifier.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:21:26.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "Universities.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Universities.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Universities.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Universities.cs",
+              "RelativeToolTip": "ProfitStart\\Universities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:23:12.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "Practices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Practices.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Practices.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Practices.cs",
+              "RelativeToolTip": "ProfitStart\\Practices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:37:01.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "sp_helpdiagrams_Result.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\sp_helpdiagrams_Result.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\sp_helpdiagrams_Result.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\sp_helpdiagrams_Result.cs",
+              "RelativeToolTip": "ProfitStart\\sp_helpdiagrams_Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:22:51.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "AppTheme.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AppTheme.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\AppTheme.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\AppTheme.cs",
+              "RelativeToolTip": "ProfitStart\\AppTheme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T04:16:15.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\RegisterWindow.xaml.cs",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAIwBoBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T07:16:27.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "PageVacancyApplications.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyApplications.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageVacancyApplications.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageVacancyApplications.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageVacancyApplications.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwGcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T10:02:11.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "PageModerationPractice.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationPractice.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationPractice.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationPractice.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageModerationPractice.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwGEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T03:04:05.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 153,
+              "Title": "MessageDialogWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MessageDialogWindow.xaml",
+              "RelativeDocumentMoniker": "ProfitStart\\MessageDialogWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\MessageDialogWindow.xaml",
+              "RelativeToolTip": "ProfitStart\\MessageDialogWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T08:18:23.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "DisputeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\DisputeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\DisputeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\DisputeWindow.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\DisputeWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T11:44:04.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "PageApplyRequest.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyRequest.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageApplyRequest.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageApplyRequest.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageApplyRequest.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwGcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:05:00.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 151,
+              "Title": "Applications.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Applications.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Applications.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Applications.cs",
+              "RelativeToolTip": "ProfitStart\\Applications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T14:51:50.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "sp_helpdiagramdefinition_Result.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\sp_helpdiagramdefinition_Result.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\sp_helpdiagramdefinition_Result.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\sp_helpdiagramdefinition_Result.cs",
+              "RelativeToolTip": "ProfitStart\\sp_helpdiagramdefinition_Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:22:48.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "PageModerationVacancies.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationVacancies.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageModerationVacancies.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageModerationVacancies.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageModerationVacancies.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAkwFcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T09:09:39.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "Skills.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Skills.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Skills.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Skills.cs",
+              "RelativeToolTip": "ProfitStart\\Skills.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:37:00.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\Model1.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\Model1.cs",
+              "RelativeToolTip": "ProfitStart\\Model1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:01:49.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "PageMyVacancies.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyVacancies.xaml.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\PageMyVacancies.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\PageMyVacancies.xaml.cs",
+              "RelativeToolTip": "ProfitStart\\PageMyVacancies.xaml.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAkwKUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T05:18:04.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "CompanyRatings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyRatings.cs",
+              "RelativeDocumentMoniker": "ProfitStart\\CompanyRatings.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProfitStart\\ProfitStart\\CompanyRatings.cs",
+              "RelativeToolTip": "ProfitStart\\CompanyRatings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T14:58:20.679Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

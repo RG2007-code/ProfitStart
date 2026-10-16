@@ -1,0 +1,389 @@
+﻿<Page x:Class="ProfitStart.PageEditProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource PageBg}">
+    <Grid Margin="30,25">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+           
+            <StackPanel Margin="0,0,0,300">
+
+                <TextBlock Text="Редактирование профиля"
+                           FontSize="26" FontWeight="Bold"
+                           Margin="0,0,0,24"
+                           Foreground="{DynamicResource TextPrimary}"/>
+
+                <TextBlock Text="Аватар"
+                           Foreground="{DynamicResource TextPrimary}"
+                           Margin="0,0,0,8"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,24">
+                    <Grid Width="80" Height="80" Cursor="Hand"
+                          MouseLeftButtonUp="Avatar_Click">
+                        <Ellipse Width="80" Height="80"
+                                 Fill="{DynamicResource AccentBgSoft}"/>
+                        <Ellipse x:Name="AvatarPreview" Width="80" Height="80"/>
+                    </Grid>
+                    <Button Content="Загрузить аватар"
+                            Height="40" Width="180"
+                            Margin="16,0,0,0"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource PrimaryBtn}"
+                            Click="Avatar_Click"/>
+                </StackPanel>
+
+                <TextBlock Text="Email"
+                           Foreground="{DynamicResource TextPrimary}"
+                           Margin="0,0,0,6"/>
+                <Border Background="{DynamicResource CardBg}"
+                        CornerRadius="10" Height="44">
+                    <TextBox x:Name="EmailBox" Background="Transparent"
+                             BorderThickness="0" Padding="14,0,0,0"
+                             VerticalContentAlignment="Center"
+                             Foreground="{DynamicResource TextPrimary}"
+                             CaretBrush="{DynamicResource TextPrimary}"/>
+                </Border>
+
+                <StackPanel x:Name="PhoneBlock">
+                    <TextBlock Text="Телефон"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="PhoneBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"
+                                 PreviewTextInput="DigitsOnly"
+                                 MaxLength="12"/>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel x:Name="AdminPassBlock" Visibility="Collapsed">
+                    <TextBlock Text="Удостоверение админа"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource AccentBgSoft}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="AdminPassBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 IsReadOnly="True"
+                                 Foreground="{DynamicResource TextMuted}"/>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel x:Name="CareerPassBlock" Visibility="Collapsed">
+                    <TextBlock Text="Удостоверение центра карьеры"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource AccentBgSoft}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="CareerPassBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 IsReadOnly="True"
+                                 Foreground="{DynamicResource TextMuted}"/>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel x:Name="StudentPanel">
+                    <TextBlock Text="ФИО"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="FullNameBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"/>
+                    </Border>
+
+                    <TextBlock Text="Курс"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="CourseBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"
+                                 PreviewTextInput="DigitsOnly" MaxLength="1"/>
+                    </Border>
+
+                    <TextBlock Text="Направление подготовки"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="DirectionBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"/>
+                    </Border>
+
+                    <TextBlock Text="Номер студенческого"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource AccentBgSoft}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="StudentCardBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 IsReadOnly="True"
+                                 Foreground="{DynamicResource TextMuted}"/>
+                    </Border>
+
+                    <TextBlock Text="Резюме (обязательно)"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10"
+                            MinHeight="200"
+                            BorderBrush="{DynamicResource BorderLine}"
+                            BorderThickness="1">
+                        <TextBox x:Name="ResumeTextBox"
+                                 Background="Transparent"
+                                 BorderThickness="0"
+                                 Padding="14,10"
+                                 TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 VerticalContentAlignment="Top"
+                                 MaxLength="3000"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"
+                                 TextChanged="Resume_TextChanged"/>
+                    </Border>
+                    <TextBlock x:Name="ResumeCounter"
+                               Foreground="{DynamicResource TextPlaceholder}"
+                               FontSize="11"
+                               HorizontalAlignment="Right"
+                               Margin="0,4,0,0" Text="0 / 3000"/>
+
+                    <TextBlock Text="Паспорт (обязательно)"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10"
+                            Height="180"
+                            BorderBrush="{DynamicResource BorderLine}"
+                            BorderThickness="1"
+                            Cursor="Hand"
+                            MouseLeftButtonUp="UploadPassport_Click">
+                        <Grid>
+                            <Border x:Name="PassportPreview" Margin="8"/>
+                            <TextBlock x:Name="PassportHint"
+                                       Text="Нажмите, чтобы загрузить паспорт"
+                                       Foreground="{DynamicResource TextPlaceholder}"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       IsHitTestVisible="False"/>
+                        </Grid>
+                    </Border>
+
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10"
+                            Padding="20,16" Margin="0,16,0,0">
+                        <Grid>
+                            <StackPanel>
+                                <TextBlock Text="Закончил обучение"
+                                           FontWeight="Bold" FontSize="14"
+                                           Foreground="{DynamicResource TextPrimary}"/>
+                                <TextBlock Text="Если да — прикрепите диплом"
+                                           Foreground="{DynamicResource TextMuted}"
+                                           FontSize="12"
+                                           Margin="0,4,0,0"/>
+                            </StackPanel>
+                            <CheckBox x:Name="GraduatedToggle"
+                                      HorizontalAlignment="Right"
+                                      VerticalAlignment="Center"
+                                      Checked="Graduated_Changed"
+                                      Unchecked="Graduated_Changed"/>
+                        </Grid>
+                    </Border>
+
+                    <StackPanel x:Name="DiplomaPanel" Visibility="Collapsed">
+                        <TextBlock Text="Диплом (обязательно, если закончили)"
+                                   Foreground="{DynamicResource TextPrimary}"
+                                   Margin="0,16,0,6"/>
+                        <Border Background="{DynamicResource CardBg}"
+                                CornerRadius="10"
+                                Height="180"
+                                BorderBrush="{DynamicResource BorderLine}"
+                                BorderThickness="1"
+                                Cursor="Hand"
+                                MouseLeftButtonUp="UploadDiploma_Click">
+                            <Grid>
+                                <Border x:Name="DiplomaPreview" Margin="8"/>
+                                <TextBlock x:Name="DiplomaHint"
+                                           Text="Нажмите, чтобы загрузить диплом"
+                                           Foreground="{DynamicResource TextPlaceholder}"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                           IsHitTestVisible="False"/>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+
+                    <TextBlock Text="Навыки"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,10"/>
+                    <WrapPanel x:Name="SkillsPanel" Margin="0,0,0,12"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="380"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Background="{DynamicResource CardBg}"
+                                CornerRadius="10"
+                                BorderBrush="{DynamicResource BorderLine}"
+                                BorderThickness="1"
+                                Height="40">
+                            <TextBox x:Name="SkillInput"
+                                     Background="Transparent" BorderThickness="0"
+                                     Padding="14,0,0,0"
+                                     VerticalContentAlignment="Center"
+                                     Foreground="{DynamicResource TextPrimary}"
+                                     CaretBrush="{DynamicResource TextPrimary}"
+                                     GotFocus="SkillInput_GotFocus"
+                                     TextChanged="SkillInput_TextChanged"
+                                     KeyDown="SkillInput_KeyDown"/>
+                        </Border>
+
+                        <Button Grid.Column="1"
+                                Content="Добавить" Width="120" Height="40"
+                                Margin="10,0,0,0"
+                                Style="{StaticResource PrimaryBtn}"
+                                Click="AddSkill_Click"/>
+                    </Grid>
+
+                    
+                    <Popup x:Name="SkillsPopup"
+                           PlacementTarget="{Binding ElementName=SkillInput}"
+                           Placement="Bottom"
+                           VerticalOffset="4"
+                           StaysOpen="True"
+                           AllowsTransparency="True"
+                           IsOpen="False"
+                           Focusable="False"
+                           PopupAnimation="Fade">
+                        <Border Background="{DynamicResource CardBg}"
+                                CornerRadius="10"
+                                MinWidth="380" MaxWidth="380"
+                                MaxHeight="240"
+                                Padding="4"
+                                BorderBrush="{DynamicResource BorderLine}"
+                                BorderThickness="1">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="16" ShadowDepth="2"
+                                                  Opacity="0.15" Color="Black"/>
+                            </Border.Effect>
+                            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                <ItemsControl x:Name="SkillsSuggestList">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border Background="Transparent"
+                                                    CornerRadius="6"
+                                                    Padding="14,10"
+                                                    Cursor="Hand"
+                                                    PreviewMouseLeftButtonDown="SkillSuggest_Click"
+                                                    Tag="{Binding}">
+                                                <TextBlock Text="{Binding}"
+                                                           Foreground="{DynamicResource TextPrimary}"
+                                                           FontSize="14"/>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </Border>
+                    </Popup>
+                </StackPanel>
+
+                <StackPanel x:Name="CompanyPanel" Visibility="Collapsed">
+                    <TextBlock Text="Название компании"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="CompanyNameBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"/>
+                    </Border>
+
+                    <TextBlock Text="ОГРН"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource AccentBgSoft}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="OgrnBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 IsReadOnly="True"
+                                 Foreground="{DynamicResource TextMuted}"/>
+                    </Border>
+
+                    <TextBlock Text="ИНН"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource AccentBgSoft}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="InnBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 IsReadOnly="True"
+                                 Foreground="{DynamicResource TextMuted}"/>
+                    </Border>
+
+                    <TextBlock Text="Сфера деятельности"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44">
+                        <TextBox x:Name="CompanyDirBox" Background="Transparent"
+                                 BorderThickness="0" Padding="14,0,0,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"/>
+                    </Border>
+
+                    <TextBlock Text="О компании"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,16,0,6"/>
+                    <Border Background="{DynamicResource CardBg}"
+                            CornerRadius="10" MinHeight="120">
+                        <TextBox x:Name="CompanyDescBox"
+                                 Background="Transparent" BorderThickness="0"
+                                 Padding="14,10" TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 VerticalContentAlignment="Top"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"/>
+                    </Border>
+                </StackPanel>
+
+                <TextBlock x:Name="ErrorText" Foreground="#DC2626"
+                           FontSize="12" Margin="0,12,0,0"
+                           TextWrapping="Wrap"/>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right" Margin="0,24,0,0">
+                    <Button Content="Отмена" Width="130" Height="44"
+                            Margin="0,0,10,0"
+                            Style="{StaticResource SecondaryBtn}"
+                            Click="Cancel_Click"/>
+                    <Button Content="Сохранить" Width="160" Height="44"
+                            Style="{StaticResource PrimaryBtn}"
+                            Click="Save_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

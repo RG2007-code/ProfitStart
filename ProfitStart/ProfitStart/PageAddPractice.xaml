@@ -1,0 +1,195 @@
+﻿<Page x:Class="ProfitStart.PageAddPractice"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource PageBg}">
+    <Grid Margin="30,25">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <Button Content="← Назад"
+                        HorizontalAlignment="Left"
+                        Margin="0,0,0,20"
+                        Style="{StaticResource GhostBtn}"
+                        Click="Back_Click"/>
+
+                <TextBlock Text="Добавить практику"
+                           FontSize="26" FontWeight="Bold"
+                           Margin="0,0,0,24"
+                           Foreground="{DynamicResource TextPrimary}"/>
+
+                <TextBlock Text="Название"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,0,0,6"/>
+                <Border Background="{DynamicResource CardBg}"
+                        CornerRadius="10" Height="44"
+                        BorderBrush="{DynamicResource BorderLine}"
+                        BorderThickness="1">
+                    <TextBox x:Name="TitleBox"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Padding="14,0,0,0"
+                             VerticalContentAlignment="Center"
+                             Foreground="{DynamicResource TextPrimary}"
+                             CaretBrush="{DynamicResource TextPrimary}"/>
+                </Border>
+
+                <TextBlock Text="Направление"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,16,0,6"/>
+                <Border Background="{DynamicResource CardBg}"
+                        CornerRadius="10" Height="44"
+                        BorderBrush="{DynamicResource BorderLine}"
+                        BorderThickness="1">
+                    <TextBox x:Name="DirectionBox"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Padding="14,0,0,0"
+                             VerticalContentAlignment="Center"
+                             Foreground="{DynamicResource TextPrimary}"
+                             CaretBrush="{DynamicResource TextPrimary}"/>
+                </Border>
+
+                <TextBlock Text="Длительность (например, «2 недели»)"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,16,0,6"/>
+                <Border Background="{DynamicResource CardBg}"
+                        CornerRadius="10" Height="44"
+                        BorderBrush="{DynamicResource BorderLine}"
+                        BorderThickness="1">
+                    <TextBox x:Name="DurationBox"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Padding="14,0,0,0"
+                             VerticalContentAlignment="Center"
+                             Foreground="{DynamicResource TextPrimary}"
+                             CaretBrush="{DynamicResource TextPrimary}"/>
+                </Border>
+
+                <TextBlock Text="Описание"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,16,0,6"/>
+                <Border Background="{DynamicResource CardBg}"
+                        CornerRadius="10" MinHeight="100"
+                        BorderBrush="{DynamicResource BorderLine}"
+                        BorderThickness="1">
+                    <TextBox x:Name="DescBox"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             Padding="14,10"
+                             TextWrapping="Wrap"
+                             AcceptsReturn="True"
+                             VerticalContentAlignment="Top"
+                             Foreground="{DynamicResource TextPrimary}"
+                             CaretBrush="{DynamicResource TextPrimary}"/>
+                </Border>
+
+                <TextBlock Text="Требуемые навыки (обязательно)"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,16,0,6"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0"
+                            Background="{DynamicResource CardBg}"
+                            CornerRadius="10" Height="44"
+                            BorderBrush="{DynamicResource BorderLine}"
+                            BorderThickness="1">
+                        <Grid>
+                            <TextBox x:Name="SkillSearchBox"
+                                     Background="Transparent"
+                                     BorderThickness="0"
+                                     Padding="14,0,0,0"
+                                     VerticalContentAlignment="Center"
+                                     Foreground="{DynamicResource TextPrimary}"
+                                     CaretBrush="{DynamicResource TextPrimary}"
+                                     TextChanged="SkillSearch_TextChanged"
+                                     GotFocus="SkillSearch_GotFocus"
+                                     KeyDown="SkillSearch_KeyDown"/>
+                            <TextBlock x:Name="SkillPlaceholder"
+                                       Text="Начните вводить навык..."
+                                       Foreground="{DynamicResource TextPlaceholder}"
+                                       Margin="14,0,0,0"
+                                       VerticalAlignment="Center"
+                                       IsHitTestVisible="False"/>
+                        </Grid>
+                    </Border>
+
+                    <Button Grid.Column="1"
+                            Content="Добавить"
+                            Width="130" Height="44"
+                            Margin="10,0,0,0"
+                            Style="{StaticResource PrimaryBtn}"
+                            Click="AddSkill_Click"/>
+                </Grid>
+
+                <Border x:Name="SkillDropdown"
+                        Background="{DynamicResource CardBg}"
+                        CornerRadius="10"
+                        Margin="0,4,0,0"
+                        MaxHeight="240"
+                        BorderBrush="{DynamicResource BorderLine}"
+                        BorderThickness="1"
+                        Visibility="Collapsed">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl x:Name="SkillDropdownList">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="14,10"
+                                            Cursor="Hand"
+                                            Background="Transparent"
+                                            PreviewMouseLeftButtonDown="SkillOption_Click"
+                                            Tag="{Binding Id}">
+                                        <TextBlock Text="{Binding Name}"
+                                                   FontSize="13"
+                                                   Foreground="{DynamicResource TextPrimary}"/>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Border>
+
+                <WrapPanel x:Name="SelectedSkillsPanel"
+                           Margin="0,12,0,0"/>
+
+                <TextBlock Text="Аватар практики"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,16,0,6"/>
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="80" Height="80" CornerRadius="12"
+                            Background="{DynamicResource AccentBgSoft}">
+                        <Border x:Name="PreviewAvatar"
+                                Width="80" Height="80" CornerRadius="12"/>
+                    </Border>
+                    <Button Content="Загрузить"
+                            Height="40" Width="140"
+                            Margin="12,0,0,0"
+                            VerticalAlignment="Center"
+                            Style="{StaticResource PrimaryBtn}"
+                            Click="UploadAvatar_Click"/>
+                </StackPanel>
+
+                <TextBlock x:Name="ErrorText" Foreground="#DC2626"
+                           FontSize="12" Margin="0,12,0,0"
+                           TextWrapping="Wrap"/>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right" Margin="0,24,0,0">
+                    <Button Content="Отмена" Width="130" Height="44"
+                            Margin="0,0,10,0"
+                            Style="{StaticResource SecondaryBtn}"
+                            Click="Back_Click"/>
+                    <Button Content="Отправить на модерацию"
+                            Width="220" Height="44"
+                            Style="{StaticResource PrimaryBtn}"
+                            Click="Save_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

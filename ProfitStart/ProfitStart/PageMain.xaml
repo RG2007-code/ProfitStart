@@ -1,0 +1,147 @@
+﻿<Page x:Class="ProfitStart.PageMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource PageBg}">
+    <Grid Margin="30,25">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="Твой профессиональный старт начинается здесь"
+                           FontSize="26" FontWeight="Bold"
+                           Foreground="{DynamicResource TextPrimary}"/>
+                <TextBlock Text="Вакансии, стажировки и практика для студентов колледжа"
+                           Foreground="{DynamicResource TextMuted}"
+                           Margin="0,8,0,20"/>
+
+               
+                <Border Height="44"
+                        Background="{DynamicResource CardBg}"
+                        CornerRadius="22">
+                    <Grid>
+                        <TextBox x:Name="SearchBox"
+                                 Background="Transparent" BorderThickness="0"
+                                 Padding="16,0,16,0"
+                                 VerticalContentAlignment="Center"
+                                 Foreground="{DynamicResource TextPrimary}"
+                                 CaretBrush="{DynamicResource TextPrimary}"
+                                 TextChanged="Search_TextChanged"/>
+                        <TextBlock x:Name="SearchPlaceholder"
+                                   Text="Поиск вакансий, должностей..."
+                                   Foreground="{DynamicResource TextPlaceholder}"
+                                   Margin="16,0,0,0"
+                                   VerticalAlignment="Center"
+                                   IsHitTestVisible="False"/>
+                    </Grid>
+                </Border>
+
+                <StackPanel x:Name="DirectionsBlock">
+                    <TextBlock Text="Популярные направления"
+                               FontSize="18" FontWeight="Bold"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,30,0,12"/>
+                    <WrapPanel x:Name="DirectionsPanel"/>
+                </StackPanel>
+
+                <StackPanel x:Name="ForYouBlock">
+                    <TextBlock Text="Популярные вакансии"
+                               FontSize="18" FontWeight="Bold"
+                               Foreground="{DynamicResource TextPrimary}"
+                               Margin="0,30,0,12"/>
+                    <ItemsControl x:Name="ForYouList">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Background="{DynamicResource CardBg}"
+                                        CornerRadius="10"
+                                        Padding="20" Margin="0,0,0,10"
+                                        Cursor="Hand"
+                                        Tag="{Binding Id}"
+                                        MouseLeftButtonUp="Vacancy_Click">
+                                    <Grid>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Grid Width="48" Height="48" VerticalAlignment="Center">
+                                                <Ellipse Width="48" Height="48"
+                                                         Fill="{DynamicResource AccentBgSoft}"/>
+                                                <Ellipse Width="48" Height="48"
+                                                         Tag="{Binding AvatarData}"
+                                                         Loaded="VacancyAvatar_Loaded"/>
+                                            </Grid>
+                                            <StackPanel Margin="15,0,0,0" VerticalAlignment="Center">
+                                                <TextBlock Text="{Binding Title}"
+                                                           FontWeight="Bold" FontSize="15"
+                                                           Foreground="{DynamicResource TextPrimary}"/>
+                                                <TextBlock Text="{Binding Subtitle}"
+                                                           Foreground="{DynamicResource TextMuted}"
+                                                           FontSize="12"
+                                                           Margin="0,2,0,0"/>
+                                            </StackPanel>
+                                        </StackPanel>
+
+                                        <Border Background="#DCFCE7" CornerRadius="12"
+                                                Padding="10,4"
+                                                HorizontalAlignment="Right"
+                                                VerticalAlignment="Center"
+                                                Visibility="{Binding MatchVisibility}">
+                                            <TextBlock Text="{Binding Match}"
+                                                       Foreground="#16A34A" FontSize="12"/>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <TextBlock Text="Свежие вакансии"
+                           FontSize="18" FontWeight="Bold"
+                           Foreground="{DynamicResource TextPrimary}"
+                           Margin="0,30,0,12"/>
+                <ItemsControl x:Name="RecentList">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="{DynamicResource CardBg}"
+                                    CornerRadius="10"
+                                    Padding="20" Margin="0,0,0,10"
+                                    Cursor="Hand"
+                                    Tag="{Binding Id}"
+                                    MouseLeftButtonUp="Vacancy_Click">
+                                <Grid>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid Width="48" Height="48" VerticalAlignment="Center">
+                                            <Ellipse Width="48" Height="48"
+                                                     Fill="{DynamicResource AccentBgSoft}"/>
+                                            <Ellipse Width="48" Height="48"
+                                                     Tag="{Binding AvatarData}"
+                                                     Loaded="VacancyAvatar_Loaded"/>
+                                        </Grid>
+                                        <StackPanel Margin="15,0,0,0" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Title}"
+                                                       FontWeight="Bold" FontSize="15"
+                                                       Foreground="{DynamicResource TextPrimary}"/>
+                                            <TextBlock Text="{Binding Subtitle}"
+                                                       Foreground="{DynamicResource TextMuted}"
+                                                       FontSize="12"
+                                                       Margin="0,2,0,0"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                    <TextBlock Text="{Binding DateText}"
+                                               Foreground="{DynamicResource TextPlaceholder}"
+                                               FontSize="12"
+                                               HorizontalAlignment="Right"
+                                               VerticalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <TextBlock x:Name="EmptyText"
+                           Text="Пока нет вакансий"
+                           Foreground="{DynamicResource TextPlaceholder}"
+                           HorizontalAlignment="Center"
+                           Margin="0,20,0,0"
+                           Visibility="Collapsed"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

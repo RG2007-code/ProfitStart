@@ -1,0 +1,108 @@
+﻿<Page x:Class="ProfitStart.PageManageCompanies"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource PageBg}">
+    <Grid Margin="30,25">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="Управление компаниями"
+                           FontSize="26" FontWeight="Bold"
+                           Margin="0,0,0,24"
+                           Foreground="{DynamicResource TextPrimary}"/>
+
+                <ItemsControl x:Name="CompaniesList">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="{DynamicResource CardBg}"
+                                    CornerRadius="10"
+                                    Padding="20" Margin="0,0,0,12"
+                                    Cursor="Hand"
+                                    Tag="{Binding Id}"
+                                    MouseLeftButtonUp="Card_Click">
+                                <Grid>
+                                    <StackPanel Orientation="Horizontal">
+
+                                        <Grid Width="48" Height="48"
+                                              VerticalAlignment="Center">
+                                            <Ellipse Width="48" Height="48"
+                                                     Fill="{DynamicResource AccentBgSoft}"/>
+                                            <Ellipse Width="48" Height="48"
+                                                     Tag="{Binding AvatarData}"
+                                                     Loaded="CompanyAvatar_Loaded"/>
+                                        </Grid>
+
+                                        <StackPanel Margin="16,0,0,0"
+                                                    VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Name}"
+                                                       FontWeight="Bold" FontSize="15"
+                                                       Foreground="{DynamicResource TextPrimary}"/>
+                                            <TextBlock Text="{Binding Info}"
+                                                       Foreground="{DynamicResource TextMuted}"
+                                                       FontSize="12"
+                                                       Margin="0,4,0,0"/>
+                                            <TextBlock Text="{Binding Status}"
+                                                       Foreground="{Binding StatusColor}"
+                                                       FontSize="12"
+                                                       Margin="0,4,0,0"/>
+                                            <TextBlock Text="{Binding Reason}"
+                                                       Foreground="#DC2626"
+                                                       FontSize="12"
+                                                       Margin="0,4,0,0"
+                                                       TextWrapping="Wrap"/>
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal"
+                                                HorizontalAlignment="Right"
+                                                VerticalAlignment="Center">
+
+                                        
+                                        <Button Content="Одобрить"
+                                                Width="110" Height="38"
+                                                Margin="0,0,8,0"
+                                                Style="{StaticResource PrimaryBtn}"
+                                                Tag="{Binding Id}"
+                                                Visibility="{Binding ApproveVisibility}"
+                                                Click="Approve_Click"/>
+
+                                        <Button Content="Открыть"
+                                                Width="110" Height="38"
+                                                Margin="0,0,8,0"
+                                                Style="{StaticResource SecondaryBtn}"
+                                                Tag="{Binding Id}"
+                                                Click="Open_Click"/>
+
+                                        <Button Content="★ Рейтинг"
+                                                Width="110" Height="38"
+                                                Margin="0,0,8,0"
+                                                Style="{StaticResource GhostBtn}"
+                                                Foreground="#F59E0B"
+                                                Tag="{Binding Id}"
+                                                Click="Rating_Click"/>
+
+                                        <Button Content="Удалить"
+                                                Width="110" Height="38"
+                                                Style="{StaticResource PrimaryBtn}"
+                                                Tag="{Binding Id}"
+                                                Click="Delete_Click"
+                                                Visibility="{Binding CanDelete}"/>
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <TextBlock x:Name="EmptyText"
+                           Text="Нет компаний"
+                           Foreground="{DynamicResource TextPlaceholder}"
+                           FontSize="14"
+                           HorizontalAlignment="Center"
+                           Margin="0,40,0,0"
+                           Visibility="Collapsed"/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,77 @@
+﻿<Page x:Class="ProfitStart.PageModerationPractice"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource PageBg}">
+    <Grid Margin="30,25">
+        <StackPanel>
+
+            <TextBlock Text="Модерация практик"
+                       FontSize="26" FontWeight="Bold"
+                       Margin="0,0,0,24"
+                       Foreground="{DynamicResource TextPrimary}"/>
+
+            <ItemsControl x:Name="PendingList">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Background="{DynamicResource CardBg}"
+                                CornerRadius="10"
+                                Padding="20" Margin="0,0,0,12">
+                            <Grid>
+                                <StackPanel Orientation="Horizontal">
+
+                                    <Grid Width="48" Height="48"
+                                          VerticalAlignment="Center">
+                                        <Ellipse Width="48" Height="48"
+                                                 Fill="{DynamicResource AccentBgSoft}"/>
+                                        <Ellipse Width="48" Height="48"
+                                                 Tag="{Binding AvatarData}"
+                                                 Loaded="PracticeAvatar_Loaded"/>
+                                    </Grid>
+
+                                    <StackPanel Margin="16,0,0,0"
+                                                VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding Title}"
+                                                   FontWeight="Bold" FontSize="15"
+                                                   Foreground="{DynamicResource TextPrimary}"/>
+                                        <TextBlock Text="{Binding Subtitle}"
+                                                   Foreground="{DynamicResource TextMuted}"
+                                                   FontSize="12"
+                                                   Margin="0,4,0,0"/>
+                                        <TextBlock Text="{Binding Status}"
+                                                   Foreground="#D97706" FontSize="12"
+                                                   Margin="0,4,0,0"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center">
+                                    <Button Content="Одобрить"
+                                            Width="120" Height="38"
+                                            Margin="0,0,8,0"
+                                            Style="{StaticResource PrimaryBtn}"
+                                            Tag="{Binding Id}"
+                                            Click="Approve_Click"/>
+                                    <Button Content="Отклонить"
+                                            Width="120" Height="38"
+                                            Style="{StaticResource SecondaryBtn}"
+                                            Tag="{Binding Id}"
+                                            Click="Reject_Click"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <TextBlock x:Name="EmptyText"
+                       Text="Нет практик на модерации"
+                       Foreground="{DynamicResource TextPlaceholder}"
+                       FontSize="14"
+                       HorizontalAlignment="Center"
+                       Margin="0,40,0,0"
+                       Visibility="Collapsed"/>
+
+        </StackPanel>
+    </Grid>
+</Page>

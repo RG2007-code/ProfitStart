@@ -1,0 +1,51 @@
+﻿<Window x:Class="ProfitStart.DisputeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Оспаривание удаления"
+        Width="480" Height="340"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="#F5F6FA">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Text="Почему вы не согласны с удалением?"
+                   FontSize="16" FontWeight="Bold"
+                   Margin="0,0,0,12"/>
+
+        <Border Grid.Row="1"
+                Background="White" CornerRadius="10"
+                Padding="4"
+                BorderBrush="#E5E7EB" BorderThickness="1">
+            <TextBox x:Name="MessageBox"
+                     Background="Transparent"
+                     BorderThickness="0"
+                     Padding="12"
+                     FontSize="13"
+                     Foreground="#374151"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     MaxLength="500"/>
+        </Border>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,20,0,0">
+            <Button Content="Отмена"
+                    Width="130" Height="42"
+                    Margin="0,0,10,0"
+                    Style="{StaticResource GhostBtn}"
+                    Click="Cancel_Click"/>
+            <Button Content="Отправить админу"
+                    Width="200" Height="42"
+                    Style="{StaticResource PrimaryBtn}"
+                    Click="Send_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

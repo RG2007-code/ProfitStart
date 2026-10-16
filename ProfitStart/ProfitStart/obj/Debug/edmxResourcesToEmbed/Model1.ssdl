@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище StudWorkModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="VacancyId" Type="int" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="IsApproved" Type="bit" />
+  </EntityType>
+  <EntityType Name="Bans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Reason" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="ReasonType" Type="nvarchar" MaxLength="100" />
+    <Property Name="BannedAt" Type="datetime" Nullable="false" />
+    <Property Name="BanUntil" Type="datetime" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="PasswordHash" Type="nvarchar" MaxLength="256" />
+    <Property Name="RoleId" Type="int" />
+    <Property Name="NotifiedAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Companies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="200" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="IsPartner" Type="bit" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="OGRN" Type="nvarchar" MaxLength="20" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsModerated" Type="bit" Nullable="false" />
+    <Property Name="PendingData" Type="nvarchar(max)" />
+    <Property Name="Direction" Type="nvarchar" MaxLength="200" />
+    <Property Name="RejectionReason" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+    <Property Name="AvatarData" Type="varbinary(max)" />
+    <Property Name="INN" Type="nvarchar" MaxLength="20" />
+    <Property Name="Rating" Type="decimal" Precision="2" Scale="1" Nullable="false" />
+    <Property Name="DisputeRequested" Type="bit" />
+    <Property Name="DisputeMessage" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="CompanyApplications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="VacancyId" Type="int" Nullable="false" />
+    <Property Name="Message" Type="nvarchar" MaxLength="500" />
+    <Property Name="PassportPath" Type="nvarchar" MaxLength="500" />
+    <Property Name="DiplomaPath" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsGraduated" Type="bit" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CompanyComment" Type="nvarchar" MaxLength="500" />
+    <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CompanyRatings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Value" Type="int" Nullable="false" />
+    <Property Name="RatedAt" Type="datetime" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="500" />
+    <Property Name="CommentedAt" Type="datetime" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsModerated" Type="bit" Nullable="false" />
+    <Property Name="RejectionReason" Type="nvarchar" MaxLength="500" />
+    <Property Name="CompanyReply" Type="nvarchar" MaxLength="1000" />
+    <Property Name="CompanyReplyAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Faculties">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UniversityId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="CompanyId" Type="int" Nullable="false" />
+    <Property Name="VacancyId" Type="int" />
+    <Property Name="SenderType" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+    <Property Name="IsRead" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Notifications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="VacancyId" Type="int" />
+    <Property Name="Message" Type="nvarchar" MaxLength="500" />
+    <Property Name="MatchScore" Type="int" />
+    <Property Name="IsRead" Type="bit" />
+    <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="CompanyId" Type="int" />
+    <Property Name="RecipientType" Type="nvarchar" MaxLength="20" />
+    <Property Name="LinkPage" Type="nvarchar" MaxLength="50" />
+    <Property Name="LinkId" Type="int" />
+    <Property Name="Title" Type="nvarchar" MaxLength="200" />
+    <Property Name="SenderType" Type="nvarchar" MaxLength="20" />
+    <Property Name="SenderId" Type="int" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PracticeApplications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PracticeId" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="Message" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Practices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="200" />
+    <Property Name="Direction" Type="nvarchar" MaxLength="200" />
+    <Property Name="Duration" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CompanyId" Type="int" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsModerated" Type="bit" Nullable="false" />
+    <Property Name="RejectionReason" Type="nvarchar" MaxLength="500" />
+    <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+    <Property Name="AvatarData" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="PracticeSkills">
+    <Key>
+      <PropertyRef Name="PracticeId" />
+      <PropertyRef Name="SkillId" />
+    </Key>
+    <Property Name="PracticeId" Type="int" Nullable="false" />
+    <Property Name="SkillId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Resumes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="FilePath" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="UploadedAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Skills">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacultyId" Type="int" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="Course" Type="int" />
+    <Property Name="GPA" Type="decimal" Precision="3" Scale="2" />
+    <Property Name="PasswordHash" Type="nvarchar" MaxLength="256" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="Direction" Type="nvarchar" MaxLength="200" />
+    <Property Name="StudentCardNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="IsGraduated" Type="bit" Nullable="false" />
+    <Property Name="ResumeText" Type="nvarchar(max)" />
+    <Property Name="PassportData" Type="varbinary(max)" />
+    <Property Name="DiplomaData" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="StudentSkills">
+    <Key>
+      <PropertyRef Name="StudentId" />
+      <PropertyRef Name="SkillId" />
+    </Key>
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="SkillId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Universities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" />
+    <Property Name="PasswordHash" Type="nvarchar" MaxLength="256" />
+    <Property Name="RoleId" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="AdminPassNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="CareerPassNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="AvatarData" Type="varbinary(max)" />
+    <Property Name="LastSeenAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Vacancies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyId" Type="int" />
+    <Property Name="Title" Type="nvarchar" MaxLength="200" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="SalaryFrom" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SalaryTo" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="IsModerated" Type="bit" />
+    <Property Name="MatchPercent" Type="int" />
+    <Property Name="Requirements" Type="nvarchar(max)" />
+    <Property Name="Salary" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="RejectionReason" Type="nvarchar" MaxLength="500" />
+    <Property Name="AvatarData" Type="varbinary(max)" />
+    <Property Name="PaymentUnit" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="VacancySkills">
+    <Key>
+      <PropertyRef Name="VacancyId" />
+      <PropertyRef Name="SkillId" />
+    </Key>
+    <Property Name="VacancyId" Type="int" Nullable="false" />
+    <Property Name="SkillId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Applicati__Stude__2A4B4B5E">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+    <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Applications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Applicati__Vacan__2B3F6F97">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1" />
+    <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Applications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Companies__UserI__48CFD27E">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Companies" Type="Self.Companies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Companies">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CompanyAp__Stude__778AC167">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="CompanyApplications" Type="Self.CompanyApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyApplications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CompanyAp__Vacan__787EE5A0">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="1" />
+    <End Role="CompanyApplications" Type="Self.CompanyApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyApplications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Faculties__Unive__1273C1CD">
+    <End Role="Universities" Type="Self.Universities" Multiplicity="0..1" />
+    <End Role="Faculties" Type="Self.Faculties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universities">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Faculties">
+        <PropertyRef Name="UniversityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__Compan__09A971A2">
+    <End Role="Companies" Type="Self.Companies" Multiplicity="1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Companies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__Studen__08B54D69">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificat__Stude__300424B4">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+    <End Role="Notifications" Type="Self.Notifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notifications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificat__Vacan__30F848ED">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1" />
+    <End Role="Notifications" Type="Self.Notifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notifications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PracticeA__Pract__3E1D39E1">
+    <End Role="Practices" Type="Self.Practices" Multiplicity="1" />
+    <End Role="PracticeApplications" Type="Self.PracticeApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Practices">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PracticeApplications">
+        <PropertyRef Name="PracticeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PracticeA__Stude__3F115E1A">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="PracticeApplications" Type="Self.PracticeApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PracticeApplications">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PracticeS__Pract__43D61337">
+    <End Role="Practices" Type="Self.Practices" Multiplicity="1" />
+    <End Role="PracticeSkills" Type="Self.PracticeSkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Practices">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PracticeSkills">
+        <PropertyRef Name="PracticeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PracticeS__Skill__44CA3770">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="1" />
+    <End Role="PracticeSkills" Type="Self.PracticeSkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skills">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PracticeSkills">
+        <PropertyRef Name="SkillId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Students__Facult__164452B1">
+    <End Role="Faculties" Type="Self.Faculties" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Faculties">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="FacultyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Students__UserId__47DBAE45">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudentSk__Skill__1BFD2C07">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="1" />
+    <End Role="StudentSkills" Type="Self.StudentSkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skills">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentSkills">
+        <PropertyRef Name="SkillId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__StudentSk__Stude__1B0907CE">
+    <End Role="Students" Type="Self.Students" Multiplicity="1" />
+    <End Role="StudentSkills" Type="Self.StudentSkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentSkills">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__RoleId__44FF419A">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vacancies__Compa__21B6055D">
+    <End Role="Companies" Type="Self.Companies" Multiplicity="0..1" />
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Companies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vacancies">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VacancySk__Skill__276EDEB3">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="1" />
+    <End Role="VacancySkills" Type="Self.VacancySkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skills">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VacancySkills">
+        <PropertyRef Name="SkillId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VacancySk__Vacan__267ABA7A">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="1" />
+    <End Role="VacancySkills" Type="Self.VacancySkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VacancySkills">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Applicati__Vacanc__2B3F6F97">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Applications" Type="Self.Applications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Applications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CompanyAp__Vacanc__787EE5A0">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CompanyApplications" Type="Self.CompanyApplications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyApplications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_Vacanc__0A9D95DB">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notificat__Vacanc__30F84BED">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Notifications" Type="Self.Notifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Notifications">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ratings_Company">
+    <End Role="Companies" Type="Self.Companies" Multiplicity="1" />
+    <End Role="CompanyRatings" Type="Self.CompanyRatings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Companies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyRatings">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ratings_User">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="CompanyRatings" Type="Self.CompanyRatings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompanyRatings">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Resumes_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Resumes" Type="Self.Resumes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Resumes">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VacancySk__Vacanc__267ABA7A">
+    <End Role="Vacancies" Type="Self.Vacancies" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VacancySkills" Type="Self.VacancySkills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacancies">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VacancySkills">
+        <PropertyRef Name="VacancyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GenerateSmartNotifications" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Хранилище StudWorkModelContainer">
+    <EntitySet Name="Applications" EntityType="Self.Applications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bans" EntityType="Self.Bans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Companies" EntityType="Self.Companies" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompanyApplications" EntityType="Self.CompanyApplications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CompanyRatings" EntityType="Self.CompanyRatings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Faculties" EntityType="Self.Faculties" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notifications" EntityType="Self.Notifications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PracticeApplications" EntityType="Self.PracticeApplications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Practices" EntityType="Self.Practices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PracticeSkills" EntityType="Self.PracticeSkills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Resumes" EntityType="Self.Resumes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Skills" EntityType="Self.Skills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentSkills" EntityType="Self.StudentSkills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Universities" EntityType="Self.Universities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vacancies" EntityType="Self.Vacancies" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VacancySkills" EntityType="Self.VacancySkills" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Applicati__Stude__2A4B4B5E" Association="Self.FK__Applicati__Stude__2A4B4B5E">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Applications" EntitySet="Applications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Applicati__Vacan__2B3F6F97" Association="Self.FK__Applicati__Vacan__2B3F6F97">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Applications" EntitySet="Applications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Companies__UserI__48CFD27E" Association="Self.FK__Companies__UserI__48CFD27E">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Companies" EntitySet="Companies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CompanyAp__Stude__778AC167" Association="Self.FK__CompanyAp__Stude__778AC167">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="CompanyApplications" EntitySet="CompanyApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CompanyAp__Vacan__787EE5A0" Association="Self.FK__CompanyAp__Vacan__787EE5A0">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="CompanyApplications" EntitySet="CompanyApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Faculties__Unive__1273C1CD" Association="Self.FK__Faculties__Unive__1273C1CD">
+      <End Role="Universities" EntitySet="Universities" />
+      <End Role="Faculties" EntitySet="Faculties" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__Compan__09A971A2" Association="Self.FK__Messages__Compan__09A971A2">
+      <End Role="Companies" EntitySet="Companies" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__Studen__08B54D69" Association="Self.FK__Messages__Studen__08B54D69">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificat__Stude__300424B4" Association="Self.FK__Notificat__Stude__300424B4">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Notifications" EntitySet="Notifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificat__Vacan__30F848ED" Association="Self.FK__Notificat__Vacan__30F848ED">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Notifications" EntitySet="Notifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PracticeA__Pract__3E1D39E1" Association="Self.FK__PracticeA__Pract__3E1D39E1">
+      <End Role="Practices" EntitySet="Practices" />
+      <End Role="PracticeApplications" EntitySet="PracticeApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PracticeA__Stude__3F115E1A" Association="Self.FK__PracticeA__Stude__3F115E1A">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="PracticeApplications" EntitySet="PracticeApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PracticeS__Pract__43D61337" Association="Self.FK__PracticeS__Pract__43D61337">
+      <End Role="Practices" EntitySet="Practices" />
+      <End Role="PracticeSkills" EntitySet="PracticeSkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PracticeS__Skill__44CA3770" Association="Self.FK__PracticeS__Skill__44CA3770">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="PracticeSkills" EntitySet="PracticeSkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Students__Facult__164452B1" Association="Self.FK__Students__Facult__164452B1">
+      <End Role="Faculties" EntitySet="Faculties" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Students__UserId__47DBAE45" Association="Self.FK__Students__UserId__47DBAE45">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudentSk__Skill__1BFD2C07" Association="Self.FK__StudentSk__Skill__1BFD2C07">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="StudentSkills" EntitySet="StudentSkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__StudentSk__Stude__1B0907CE" Association="Self.FK__StudentSk__Stude__1B0907CE">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="StudentSkills" EntitySet="StudentSkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__RoleId__44FF419A" Association="Self.FK__Users__RoleId__44FF419A">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vacancies__Compa__21B6055D" Association="Self.FK__Vacancies__Compa__21B6055D">
+      <End Role="Companies" EntitySet="Companies" />
+      <End Role="Vacancies" EntitySet="Vacancies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VacancySk__Skill__276EDEB3" Association="Self.FK__VacancySk__Skill__276EDEB3">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="VacancySkills" EntitySet="VacancySkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VacancySk__Vacan__267ABA7A" Association="Self.FK__VacancySk__Vacan__267ABA7A">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="VacancySkills" EntitySet="VacancySkills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Applicati__Vacanc__2B3F6F97" Association="Self.FK_Applicati__Vacanc__2B3F6F97">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Applications" EntitySet="Applications" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CompanyAp__Vacanc__787EE5A0" Association="Self.FK_CompanyAp__Vacanc__787EE5A0">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="CompanyApplications" EntitySet="CompanyApplications" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_Vacanc__0A9D95DB" Association="Self.FK_Messages_Vacanc__0A9D95DB">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notificat__Vacanc__30F84BED" Association="Self.FK_Notificat__Vacanc__30F84BED">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="Notifications" EntitySet="Notifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ratings_Company" Association="Self.FK_Ratings_Company">
+      <End Role="Companies" EntitySet="Companies" />
+      <End Role="CompanyRatings" EntitySet="CompanyRatings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ratings_User" Association="Self.FK_Ratings_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CompanyRatings" EntitySet="CompanyRatings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Resumes_Users" Association="Self.FK_Resumes_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Resumes" EntitySet="Resumes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VacancySk__Vacanc__267ABA7A" Association="Self.FK_VacancySk__Vacanc__267ABA7A">
+      <End Role="Vacancies" EntitySet="Vacancies" />
+      <End Role="VacancySkills" EntitySet="VacancySkills" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
